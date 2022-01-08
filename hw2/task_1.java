@@ -18,7 +18,6 @@ public class task_1 {
         } else {
             calendar.set(year, month, 1);
 
-
         int days = calendar.getActualMaximum(Calendar.DAY_OF_MONTH);
         System.out.println("The number of days in this month - " + days);
         }
