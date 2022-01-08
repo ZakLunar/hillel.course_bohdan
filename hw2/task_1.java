@@ -7,7 +7,7 @@ public class task_1 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         Calendar calendar = Calendar.getInstance();
-
+        
         System.out.println("Please, enter the year");
         int year = scanner.nextInt();
         System.out.println("Please, enter the number of month");
