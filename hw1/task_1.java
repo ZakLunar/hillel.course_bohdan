@@ -8,7 +8,7 @@ public class task_1 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Please, enter a value and press Enter");
-        Double i = scanner.nextDouble();
+        double i = scanner.nextDouble();
 
         //double i = 1000; //inch
         double m = i * 0.0254; //meters
