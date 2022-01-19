@@ -22,10 +22,14 @@ public class task_4 {
             System.out.print(j + ", ");
         }
 
-        for (int i = 0; i < arr.length; i++) {
-            sum = sum + arr[i];
+        System.out.print("\nSum of all the elements of an array: ");
+        for (int j = 0; j < arr.length; j++) {
+            sum = sum + arr[j];
+            if (j < arr.length - 1) {
+                System.out.print(arr[j] + " + ");}
+            else {
+                System.out.print(arr[j] + " = " + sum);
+            }
         }
-
-        System.out.println("\nSum of all the elements of an array:" + sum);
     }
 }
